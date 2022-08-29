@@ -1,7 +1,10 @@
+
+/* rimuovere bordi header e rendere funzionanti le percentuali come metodo di ridimensionamento*/
 *{                
     box-sizing: border-box;
     margin: 0% 0% 0% 0%;
   }
+
 
 header{
     background-color: cornflowerblue;
@@ -37,6 +40,14 @@ h5{
     margin-top: 2%;
 }
 
+.borders2{                 
+    margin-top: 0%;
+    margin-right: 1%;
+    margin-bottom: 0%;
+    padding-bottom: 1%;
+
+}
+
 .listb{
     padding-left: 2%;
     padding-bottom: 2%;
@@ -66,11 +77,32 @@ h5{
     padding-left: 1%;
 }
 
-#evidenziato{
+.evidenziato{
     background-color: rgb(242, 255, 0);
 }
 
 #table{
     border-collapse: collapse;
     width: 100%;
+}
+
+#bkgimage1{
+    background-image: url(/img/monitor.jpg);
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+#bkgimage2{
+    background-image: url(/img/graph.jpg);
+    width: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+
+.white{
+    color: aliceblue;
+    font-size: large;
+    text-align: center;
+    padding-top: 8%;
 }
