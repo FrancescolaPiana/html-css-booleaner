@@ -8,7 +8,7 @@
 
 header{
     background-color: cornflowerblue;
-    background-image:  url(/img/pattern.png);
+    background-image:  url(../img/pattern.png);
     background-size: 30% ;
 }
 
@@ -87,14 +87,14 @@ h5{
 }
 
 #bkgimage1{
-    background-image: url(/img/monitor.jpg);
+    background-image: url(../img/monitor.jpg);
     width: 300px;
     height: 200px;
     background-repeat: no-repeat;
 }
 
 #bkgimage2{
-    background-image: url(/img/graph.jpg);
+    background-image: url(../img/graph.jpg);
     width: 300px;
     height: 200px;
     background-repeat: no-repeat;
